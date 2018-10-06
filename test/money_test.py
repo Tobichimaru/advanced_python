@@ -1,5 +1,5 @@
-from money import CurrencyConverter
-from money import Money
+from moneylib.converter import CurrencyConverter
+from moneylib.money import Money
 import unittest
 from unittest.mock import MagicMock
 

@@ -1,1 +1,1 @@
-Advanced Python
+Money Converter lib

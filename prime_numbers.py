@@ -6,6 +6,8 @@ from time import sleep
 def is_prime(num):
     if not num:
         return False
+    if num == 1:
+        return False
     sqrt_num = int(math.sqrt(num)) + 1
     for divisor in range(2, sqrt_num):
         if num % divisor == 0:
@@ -26,4 +28,5 @@ def get_sum_of_primes(left, right):
 
 
 if __name__ == "__main__":
+    print(get_sum_of_primes(1, 10))
     print(get_sum_of_primes(10000, 100000))
